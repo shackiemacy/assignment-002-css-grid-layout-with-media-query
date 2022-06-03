@@ -1,0 +1,64 @@
+.title{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    display: grid;
+    
+    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    border: 1px solid black;
+    grid-template-areas: 
+         "one two three"
+         "four five five"
+         ;
+
+}
+.section1{
+    border: 1px solid black;    
+    grid-area: one;
+
+}
+.section2{
+  border: 1px solid black;
+  grid-area: two;
+  text-align:justify;
+ 
+}
+.section3{
+    border: 1px solid black;
+    grid-area: three;
+    
+    
+}
+.section4{
+    border: 1px solid black;
+    grid-area: four;
+    
+}
+.section5{
+    border: 1px solid black;
+    grid-area: five;
+    display: grid;
+}
+.background{
+    width: 600px;
+}
+.politics {
+    background-color: yellow;}
+ .technology{
+    background-color: lightblue;}
+ .locals{
+    background-color: blue;}
+ .opinion{
+    background-color: green;}
+ .sports{
+    background-color: purple;}
+    
+        
+    
+
+
+
+
